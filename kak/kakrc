@@ -1,0 +1,4 @@
+colorscheme gruvbox
+hook global InsertChar \t %{ exec -draft -itersel h@ }
+set global tabstop 4
+set global indentwidth 4  
